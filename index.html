@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="script.js"></script>
 </head>
 <body>
@@ -38,7 +39,7 @@
         <div class="container">
              <div class="header-text">
                 <h1>Hi, I am <span class="text-color">John</span></h1>
-                <h2><span class="text-color">Web Creation</span> Enthusiast</h2>
+                <h2><span id="element"></span> Enthusiast</h2>
                 <p>I find <span class="text-color">web development</span> to be an exciting and dynamic field.<br>
                     The process of creating websites and applications allows me<br>
                     to combine my creativity with problem-solving skills. The<br>
@@ -346,5 +347,14 @@
             <p>Developed by : John Lester Moreno</p>
         </div>
     </section>
+     <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Creation', 'Designer'],
+          typeSpeed: 100,
+          backSpeed: 10,
+          backDelay: 2000,
+          loop : true
+        });
+    </script>
 </body>
 </html>
