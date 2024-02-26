@@ -165,6 +165,12 @@ svg{
     color: #ff9255;
 }
 
+#element{
+    color: #ff9255;
+    margin-top: 15px;
+    font-size: 40px;
+}
+
 .social-icon {
     text-decoration: none;
     margin-top: 50px;
